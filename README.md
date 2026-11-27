@@ -47,18 +47,22 @@ O **Jovem Paulista** resolve isso reunindo perfil acadêmico/técnico, rede de c
 </div>
 </details>
 
----
 
+
+---
 ### 🛠️ Rodando o projeto
 
 ```bash
+
 # Clone o repositório e entre na pasta
 git clone [https://github.com/seu-usuario/jovem-paulista.git](https://github.com/seu-usuario/jovem-paulista.git) && cd jovem-paulista
 
 # Instale as dependências e inicie (requer Node 20+)
 npm install && npm run dev
 
-Decisões de Projeto
+```
+```
+# Decisões de Projeto
 Front-end First: Fluxos validados na interface antes da construção do back-end.
 
 API Isolada (src/services/api.ts): Camada de dados desacoplada para facilitar a troca do mock por chamadas HTTP reais.
@@ -74,14 +78,17 @@ src/
 ├── lib/          # Validadores, busca normalizada e helpers de storage
 ├── pages/        # Login, Cadastro, Recuperação, Home e Perfil
 └── services/     # api.ts (camada de integração)
-Conectando a um Back-end
+
+# Conectando a um Back-end
 Renomeie .env.example para .env e adicione VITE_API_URL.
 
 Descomente os blocos TODO (integração API) em src/services/api.ts.
 
 Substitua os dados de src/data/mock.ts pelas respostas da API.
 
-🗺️ Próximos Passos
+```
+
+# 🗺️ Próximos Passos
 [ ] Algoritmo de recomendação de vagas baseado nas habilidades do perfil
 
 [ ] Filtros de busca por área de atuação e senioridade
@@ -90,6 +97,22 @@ Substitua os dados de src/data/mock.ts pelas respostas da API.
 
 [ ] Sistema de notificações para conexões e vagas
 
-Desenvolvido para a disciplina de Frameworks Front-end (2026)
 
-Vinicius Aragão · João Miguel · Gabriel Rodrigues · Guilherme Alves
+---
+
+<div align="center">
+
+  ### 👨‍💻 Equipe de Desenvolvimento
+
+  **Vinicius Aragão** · **João Miguel** · **Gabriel Rodrigues** · **Guilherme Alves**
+
+  <sub>Projeto acadêmico desenvolvido para a disciplina de <b>Frameworks Front-end</b> • 2026</sub>
+
+  <br />
+
+  ![Status](https://img.shields.io/badge/Status-Concluído-2ea44f?style=flat-square)
+  <div align="center" #2026> 
+
+</div>
+
+
