@@ -8,17 +8,16 @@
 
   <br />
 
-  ![React]
-  ![TypeScript]
-  ![Tailwind CSS]
-  ![Vite]
+  [React]
+  [TypeScript]
+  [Tailwind CSS]
+  [Vite]
 
 </div>
 
 <br />
 
 <div align="center">
-  <img src="docs/home.png" alt="Preview da Plataforma" width="85%" style="border-radius: 8px;" />
   <p><sub>Tela principal da área restrita — Feed, conexões e mural de vagas em um só lugar.</sub></p>
 </div>
 
@@ -58,3 +57,39 @@ git clone [https://github.com/seu-usuario/jovem-paulista.git](https://github.com
 
 # Instale as dependências e inicie (requer Node 20+)
 npm install && npm run dev
+
+Decisões de Projeto
+Front-end First: Fluxos validados na interface antes da construção do back-end.
+
+API Isolada (src/services/api.ts): Camada de dados desacoplada para facilitar a troca do mock por chamadas HTTP reais.
+
+Sessão em Memória: Gerenciada via Context API, encerrando ao recarregar a página (preparado para JWT).
+
+Estrutura
+Plaintext
+src/
+├── components/   # UI reutilizável (Button, Field, AuthCard, Header, Feed...)
+├── context/      # AuthContext (controle de sessão)
+├── data/         # Dados mockados
+├── lib/          # Validadores, busca normalizada e helpers de storage
+├── pages/        # Login, Cadastro, Recuperação, Home e Perfil
+└── services/     # api.ts (camada de integração)
+Conectando a um Back-end
+Renomeie .env.example para .env e adicione VITE_API_URL.
+
+Descomente os blocos TODO (integração API) em src/services/api.ts.
+
+Substitua os dados de src/data/mock.ts pelas respostas da API.
+
+🗺️ Próximos Passos
+[ ] Algoritmo de recomendação de vagas baseado nas habilidades do perfil
+
+[ ] Filtros de busca por área de atuação e senioridade
+
+[ ] Integração com API REST e banco de dados real
+
+[ ] Sistema de notificações para conexões e vagas
+
+Desenvolvido para a disciplina de Frameworks Front-end (2026)
+
+Vinicius Aragão · João Miguel · Gabriel Rodrigues · Guilherme Alves
