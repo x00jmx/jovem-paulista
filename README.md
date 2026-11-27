@@ -4,14 +4,14 @@
 
   **Conectando talentos em início de carreira às suas primeiras oportunidades.**
 
-  [Ver Demo ao Vivo](https://seu-link-aqui.vercel.app) · [Reportar Bug](https://github.com/seu-user/repo/issues) · [Solicitar Recurso](https://github.com/seu-user/repo/issues)
+  [Ver Demo ao Vivo](https://seu-link-aqui.vercel.app) 
 
   <br />
 
-  ![React](https://img.shields.io/badge/React_18-0D1117?style=flat-square&logo=react&logoColor=61DAFB)
-  ![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=3178C6)
-  ![Tailwind CSS](https://img.shields.io/badge/Tailwind_v4-0D1117?style=flat-square&logo=tailwindcss&logoColor=38B2AC)
-  ![Vite](https://img.shields.io/badge/Vite-0D1117?style=flat-square&logo=vite&logoColor=646CFF)
+  ![React]
+  ![TypeScript]
+  ![Tailwind CSS]
+  ![Vite]
 
 </div>
 
