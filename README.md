@@ -1,6 +1,6 @@
 # Jovem Paulista
 
-Rede de conexão empresarial e networking profissional, inspirada na proposta do LinkedIn. O sistema reúne uma área de acesso (login, cadastro e recuperação de senha) e uma área restrita com perfil, feed de publicações, sugestões de conexões e vagas em destaque.
+Rede de conexão  profissional, inspirada na proposta do LinkedIn. O sistema reúne uma área de acesso (login, cadastro e recuperação de senha) e uma área restrita com perfil, feed de publicações, sugestões de conexões e vagas em destaque.
 
 > **Status:** protótipo de interface (front-end). Autenticação, cadastro e recuperação de senha são **apenas visuais** e não se comunicam com um servidor.
 
